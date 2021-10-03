@@ -1,197 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- =====BOX ICONS===== -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+    <link href ="/node_modules/@fortawesome/fontawesome-free/js/brands.js"></link>
+    <link href="/node_modules/@fortawesome/fontawesome-free/js/solid.js"></link>
+    <link href="/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></link>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dhuha's Web Portfolio</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Dhuha</a>
+        </div>
 
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Marlon</a>
-                </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">Stuffs</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Dhuha</span><br />
+            IT Student
+          </h1>
+          <a href="#contact" class="button">Contact</a>
+        </div>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Marlon</span><br> Web Designer</h1>
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/dhuha-rohim-643a8416a/" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/dhuharohim" class="home__social-icon"><i class="bx bxl-github"></i></a>
+        </div>
 
-                    <a href="#" class="button">Contact</a>
-                </div>
+        <div class="home__img">
+          <img src="assets/img/Artboard 1profile2.png" alt="" />
+        </div>
+      </section>
 
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
 
-                <div class="home__img">    
-                    <img src="assets/img/perfil.png" alt="">
-                </div>
-            </section>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/RPA_Intern_Dhuha.jpg" alt="" />
+          </div>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+          <div>
+            <h2 class="about__subtitle">I'am Dhuha</h2>
+            <p class="about__text">
+              As a Computer Science student at Pertamina University, I have several experiences in the field of Information Technology such as programming, front end developer, user experience (UX) designer, user interface (UI) designer,
+              web developer. Apart from that, I am very interested in creative things such as writing, starting from writing scripts for short films, or writing articles and implementing them into creative multiple posts on Instagram.
+            </p>
+          </div>
+        </div>
+      </section>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Marlon</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
-                    </div>                                   
-                </div>
-            </section>
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">My IT Skills</h2>
+            <p class="skills__text">I got several IT Hard Skills from my several experience, Here's mine in percentage :</p>
+            <i class="bx bxl-chrome skills__icon"></i>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Marlon</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">60%</span>
+              </div>
             </div>
-            <p>&#169; 2020 copyright all right reserved</p>
-        </footer>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">40%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">30%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">UI/UX</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">70%</span>
+              </div>
+            </div>
+            <i class="bx bx-data skills__icon-code"></i>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img src="/assets/img/Artboard 1logopy3.png" class="skills__icon" alt="" />
+                <span class="skills__name">Python</span>
+              </div>
+              <div class="skills__bar skills__py"></div>
+              <div>
+                <span class="skills__percentage">50%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img src="/assets/img/Artboard 1logosql.png" class="skills__icon" alt="" />
+                <span class="skills__name">SQL</span>
+              </div>
+              <div class="skills__bar skills__sql"></div>
+              <div>
+                <span class="skills__percentage">30%</span>
+              </div>
+            </div>
+            <i class="bx bx-code-block skills__icon-code"></i>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img src="/assets/img/Artboard 1logojava.png" class="skills__icon" alt="" />
+                <span class="skills__name">Java</span>
+              </div>
+              <div class="skills__bar skills__java"></div>
+              <div>
+                <span class="skills__percentage">40%</span>
+              </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <img src="/assets/img/Artboard 1logoc.png" class="skills__icon" alt="" />
+              <span class="skills__name">C++</span>
+            </div>
+            <div class="skills__bar skills__c"></div>
+            <div>
+              <span class="skills__percentage">50%</span>
+            </div>
+        </div>
+        </div>
+        <div class="skills__container bd-grid-sk">
+          <div>
+            <h2 class="skills__subtitle">My Videography Skills</h2>
+            <p class="skills__text">To fill in my spare time, i usually improve my passion on Videography and i got some experience,Here's mine in percentage :</p>
+           
 
+            <div class="skills__data">
+              <div class="skills__names">
+                <img src="/assets/img/Artboard 1logoscrpt.png" class="skills__icon" alt="">
+                <span class="skills__name">Script Writing</span>
+              </div>
+              <div class="skills__bar skills__script"></div>
+              <div>
+                <span class="skills__percentage">70%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img src="/assets/img/Artboard 1logoprm.png" class="skills__icon" alt="">
+                <span class="skills__name">Adobe Premiere</span>
+              </div>
+              <div class="skills__bar skills__prm"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img src="/assets/img/Artboard 1logoae.png" class="skills__icon" alt="">
+                <span class="skills__name">Adobe After Effect</span>
+              </div>
+              <div class="skills__bar skills__ae"></div>
+              <div>
+                <span class="skills__percentage">60%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img src="/assets/img/Artboard 1logolr.png" class="skills__icon" alt="">
+                <span class="skills__name">Adobe Lightroom</span>
+              </div>
+              <div class="skills__bar skills__lr"></div>
+              <div>
+                <span class="skills__percentage">78%</span>
+              </div>
+            </div>
+            <div>
+              <h2 class="skills__subtitle">My Graphic Design Skills</h2>
+              <p class="skills__text">I got several experience in graphic design too, i had it from my work at Publication and Documentation Division in Student Associaton of Pertamina University, Here's mine in percentage :</p>
+             
+  
+              <div class="skills__data">
+                <div class="skills__names">
+                  <img src="/assets/img/Artboard 1logops.png" class="skills__icon" alt="">
+                  <span class="skills__name">Adobe Photoshop</span>
+                </div>
+                <div class="skills__bar skills__ps"></div>
+                <div>
+                  <span class="skills__percentage">50%</span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__names">
+                  <img src="/assets/img/Artboard 1logoai.png" class="skills__icon" alt="">
+                  <span class="skills__name">Adobe Illustrator</span>
+                </div>
+                <div class="skills__bar skills__ai"></div>
+                <div>
+                  <span class="skills__percentage">68%</span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__names">
+                  <i class="bx bxl-figma skills__icon"></i>
+                  <span class="skills__name">Figma</span>
+                </div>
+                <div class="skills__bar skills__fig"></div>
+                <div>
+                  <span class="skills__percentage">75%</span>
+                </div>
+              </div>
+            </div>
+      </section>
+      <!--===== EXP =====-->
+      <section class="exp__body section">
+        <h2 class="section-title">Experience</h2>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+  
+<!-- The Timeline -->
+        <div class="exp__title-sub">
+        <h4 class="h2__exp-sub">Education</h4>
+      </div>
+      <ul class="timeline">
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">SMAN 4 BJN</span>
+              <span class="time-wrapper"><span class="time">2015 - 2018</span></span>
+            </div>
+            <div class="desc">My career start when i was in high school as a student</div>
+          </div>
+        </li>
+        
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Pertamina University</span>
+              <span class="time-wrapper"><span class="time">2018 - Present</span></span>
+            </div>
+            <div class="desc">then, I decided to continue my education at Pertamina University in Computer Science Study Program </div>
+          </div>
+        </li>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">BTPN Bank</span>
+              <span class="time-wrapper"><span class="time">(APR-JUNE) 2021</span></span>
+            </div>
+            <div class="desc">My first intern at BTPN Bank as a System Analyst in RPA Division</div>
+          </div>
+        </li>
+        
+      </ul>
+      <h4 class="h2__exp-sub-org">Organization</h4>
+      <ul class="timeline">
+
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">HMIK UP</span>
+              <span class="time-wrapper"><span class="time">2020 - 2021</span></span>
+            </div>
+            <div class="desc">My first Organization as a Head Division of Publication and Documentation</div>
+          </div>
+        </li>
+        
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">UKM Beladiri UP</span>
+              <span class="time-wrapper"><span class="time">2020-2021</span></span>
+            </div>
+            <div class="desc">I've been promoted to be Vice Chairman of Self Defense Student Activity in my campus </div>
+          </div>
+        </li>
+
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">PERMIKOMNAS</span>
+              <span class="time-wrapper"><span class="time">2021 - Present</span></span>
+            </div>
+            <div class="desc">I think this is my last Organization experience, that i've been delegated as a Head Division of Science and Technology</div>
+          </div>
+        </li>
+        
+      </ul>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+          <div class="work__img">
+            <img src="assets/img/work1.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="assets/img/work2.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="assets/img/work3.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="assets/img/work4.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="assets/img/work5.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="assets/img/work6.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="https://formspree.io/f/mayakegb" class="contact__form" method="POST" id="my-form">
+            <div class="form-group">
+              <label for="Name" class="contact__forlabel">Name</label>
+              <input type="text" id="Name" class="contact__input" />
+            </div>
+            <div class="form-group">
+              <label for="Email"class="contact__forlabel">Email</label>
+              <input type="email" id ="Email"class="contact__input" />
+            </div>
+            <div class="form-group">
+              <label for="Messages"class="contact__forlabel">Messages</label>
+              <textarea name="message" id="message" cols="0" rows="10" class="contact__input"></textarea>
+            </div>
+            <button type="submit" class="contact__button button">Submit</button>
+          </form>
+          <div id="status" class="success"></div>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Find me!</p>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/dhuha.rohim.7" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/cmd.exee/" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="https://wa.me/6282229011758" class="footer__icon"><i class="bx bxl-whatsapp"></i></a>
+      </div>
+      <p>&#169; 2020 copyright all right reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
